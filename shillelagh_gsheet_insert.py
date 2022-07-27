@@ -5,7 +5,7 @@ if __name__ == "__main__":
         ":memory:",
         adapter_kwargs={
             "gsheetsapi": {
-                "service_account_file": "./sqlalchemy-gsheet-example-e36a52e70d5d.json",
+                "service_account_file": "./credential.json",
             },
         },
     )
